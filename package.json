@@ -1,0 +1,36 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --require babel-core/register test",
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tfielder/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Tim Fielder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tfielder/portfolio/issues"
+  },
+  "homepage": "https://github.com/tfielder/portfolio#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "css-loader": "^2.1.0",
+    "mocha": "^6.0.2",
+    "style-loader": "^0.23.1"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}

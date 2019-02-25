@@ -1,0 +1,14 @@
+
+node_modules
+
+# Ignore Mac DS_Store
+*.DS_Store
+.env
+APIkey.js
+
+# Production
+/build
+
+# Logs
+logs
+*.log
